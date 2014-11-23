@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Kargers_Min_Cuts_Contraction_Algorithm/Graph&apos; to &apos;Graph.cpp&apos;" description="Rename resource &apos;Graph&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Graph" name="Graph.cpp" stamp="1415246993251" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Kargers_Min_Cuts_Contraction_Algorithm/Graph.cpp&apos; to &apos;Graph.h&apos;" description="Rename resource &apos;Graph.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Graph.cpp" name="Graph.h" stamp="1415247476778" updateReferences="true"/>
+</session>

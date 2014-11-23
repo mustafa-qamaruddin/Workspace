@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1416769967 source:/home/qamar-ud-din/workspace/Dijkstra/main.cpp
+	"Graph.h"
+
+1416781077 /home/qamar-ud-din/workspace/Dijkstra/include/Graph.h
+	<iostream>
+	<fstream>
+	<vector>
+	<cstring>
+	<cstdlib>
+	<ctime>
+	<iomanip>
+	<algorithm>
+	<sstream>
+	<string>
+	<list>
+	<queue>
+
+1416780887 source:/home/qamar-ud-din/workspace/Dijkstra/src/Graph.cpp
+	"Graph.h"
+
