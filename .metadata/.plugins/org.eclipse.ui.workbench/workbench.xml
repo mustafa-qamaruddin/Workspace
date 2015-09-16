@@ -11,7 +11,7 @@
 </perspectiveBar>
 <coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="144" y="30"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="184" y="30"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.cdt.ui.CElementCreationActionSet" itemType="typeToolBarContribution" x="204" y="30"/>
 <coolItem id="org.eclipse.cdt.ui.buildConfigActionSet" itemType="typeToolBarContribution" x="106" y="30"/>
@@ -46,11 +46,9 @@
 </view>
 <view id="org.eclipse.cdt.ui.CView" partName="C/C++ Projects">
 <viewState horizontalPosition="0" verticalPosition="0">
-<expanded>&#x0A;<element path="/home/qamar-ud-din/workspace/131-C-The-World-is-a-Theatre"/>
-</expanded>
-<selection>&#x0A;<element path="/home/qamar-ud-din/workspace/131-C-The-World-is-a-Theatre/main.cpp"/>
-</selection>
-<customFilters userDefinedPatternsEnabled="false">&#x0A;<xmlDefinedFilters>&#x0A;<child filterId="org.eclipse.cdt.internal.ui.CView.ExecutableFilter" isEnabled="false"/>
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="org.eclipse.cdt.internal.ui.CView.ExecutableFilter" isEnabled="false"/>
 <child filterId="org.eclipse.cdt.internal.ui.CView.SharedFilter" isEnabled="false"/>
 <child filterId="org.eclipse.cdt.internal.ui.CView.ClosedProjectFilter" isEnabled="false"/>
 <child filterId="org.eclipse.cdt.internal.ui.CView.NonCProjectsFilter" isEnabled="false"/>
@@ -543,6 +541,15 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="libdenoising.cpp" tooltip="IPOL NON LOCAL IMAGE DENOISING/libdenoising.cpp">
+<persistable path="/IPOL NON LOCAL IMAGE DENOISING/libdenoising.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="libdenoising.h" tooltip="IPOL NON LOCAL IMAGE DENOISING/libdenoising.h">
+<persistable path="/IPOL NON LOCAL IMAGE DENOISING/libdenoising.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="nlmeans_ipol.cpp" tooltip="IPOL NON LOCAL IMAGE DENOISING/nlmeans_ipol.cpp">
+<persistable path="/IPOL NON LOCAL IMAGE DENOISING/nlmeans_ipol.cpp"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="test_case_14.in" tooltip="Kosaraju_SCCs/test_case_14.in">
 <persistable path="/Kosaraju_SCCs/test_case_14.in"/>
 </file>
@@ -578,15 +585,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="test_case_3.in" tooltip="Kosaraju_SCCs/test_case_3.in">
 <persistable path="/Kosaraju_SCCs/test_case_3.in"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="test_case_2.in" tooltip="Kosaraju_SCCs/test_case_2.in">
-<persistable path="/Kosaraju_SCCs/test_case_2.in"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="test_case_1.in" tooltip="Kosaraju_SCCs/test_case_1.in">
-<persistable path="/Kosaraju_SCCs/test_case_1.in"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="graph.cpp" tooltip="Kosaraju_SCCs/graph.cpp">
-<persistable path="/Kosaraju_SCCs/graph.cpp"/>
 </file>
 </mruList>
 </workbench>

@@ -1,0 +1,16 @@
+
+**** Build of configuration Debug for project A. Anton and Letters ****
+
+make all 
+Building file: ../443A.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"443A.d" -MT"443A.d" -o "443A.o" "../443A.cpp"
+Finished building: ../443A.cpp
+ 
+Building target: A. Anton and Letters
+Invoking: Cross G++ Linker
+g++  -o "A. Anton and Letters"  ./443A.o   
+Finished building target: A. Anton and Letters
+ 
+
+**** Build Finished ****

@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="160" key="DIALOG_Y_ORIGIN"/>
+		<item value="368" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.internal.ide.dialogs.ProjectContentsLocationArea">
+		<item value="/media/qamar-ud-din/709E751C9E74DBD2/Qamaruddin/Sessions/IPOL Non Local Image Denoising/Code/nlmeansC" key="OUTSIDE_LOCATION"/>
+	</section>
+	<section name="CleanDialogSettings">
+		<item value="565" key="DIALOG_WIDTH"/>
+		<item value="116" key="DIALOG_Y_ORIGIN"/>
+		<item value="388" key="DIALOG_HEIGHT"/>
+		<item value="402" key="DIALOG_X_ORIGIN"/>
+		<item value="false" key="TOGGLE_SELECTED"/>
+	</section>
 	<section name="NewWizardAction">
 		<item value="org.eclipse.cdt.ui.wizards.NewCWizard1" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
@@ -9,12 +23,5 @@
 			<item value="org.eclipse.jdt.ui.java"/>
 			<item value="org.eclipse.pde.PDE"/>
 		</list>
-	</section>
-	<section name="CleanDialogSettings">
-		<item value="565" key="DIALOG_WIDTH"/>
-		<item value="116" key="DIALOG_Y_ORIGIN"/>
-		<item value="402" key="DIALOG_X_ORIGIN"/>
-		<item value="388" key="DIALOG_HEIGHT"/>
-		<item value="false" key="TOGGLE_SELECTED"/>
 	</section>
 </section>

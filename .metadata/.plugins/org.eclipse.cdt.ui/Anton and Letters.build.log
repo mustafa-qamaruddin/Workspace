@@ -1,0 +1,8 @@
+
+**** Clean-only build of configuration Debug for project Anton and Letters ****
+
+make clean 
+rm -rf  ./443A.o  ./443A.d  "Anton and Letters"
+ 
+
+**** Build Finished ****

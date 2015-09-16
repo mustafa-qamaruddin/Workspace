@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1440869415 source:/home/qamar-ud-din/workspace/A/main.cpp
+	<iostream>
+	<queue>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1417723872 source:/home/qamar-ud-din/workspace/2-Sum/main.cpp
+	<iostream>
+	<fstream>
+	<unordered_map>
+
