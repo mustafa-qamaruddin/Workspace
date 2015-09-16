@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1442385728 source:/home/qamar-ud-din/workspace/time-conversion/main.cpp
+	<cmath>
+	<cstdio>
+	<vector>
+	<iostream>
+	<algorithm>
+	<string>
+
