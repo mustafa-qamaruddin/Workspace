@@ -10,41 +10,61 @@ using namespace std;
 
 string time_conversion(string in)
 {
-    string ret, parts[4], hours;
-    size_t pos = in.find(':');
+    string ret = "", parts[4], hours;
+
     int i = 0;
+    size_t pos;
     while(in.size() > 0)
     {
-        parts[i] = in.substr(0, pos);
-        if( pos != string::npos)
+
+        pos = in.find(':');
+        if(pos != string::npos)
+        {
+            parts[i] = in.substr(0, pos);
             in = in.substr(pos + 1);
+        }
         else
+        {
+            parts[i] = in;
             in = "";
+        }
+
 
         string temp = parts[i];
-        size_t day_night_pos = temp.find("AM");
-        if(day_night_pos != string::npos)
-        {
-            parts[i] = temp.substr(0, day_night_pos);
-        }
 
-        day_night_pos = temp.find("PM");
-        if(day_night_pos != string::npos)
+        size_t day_pos = temp.find("AM");
+        if(day_pos != string::npos)
+            parts[i] = temp.substr(0, day_pos);
+
+        size_t night_pos = temp.find("PM");
+        if(night_pos != string::npos)
         {
-//            parts[i] = temp.substr(0, day_night_pos);
+            parts[i] = temp.substr(0, night_pos);
             if(parts[0].find('12') == string::npos) // 01PM, 02PM, 03PM, 04PM, 05PM, 06PM, 07PM, 08PM, 09PM, 10PM, 11PM
             {
-//                const char* char_arr = parts[0].c_str();
-//                int digit_0 = char_arr[0] - '0';
-//                int digit_1 = char_arr[1] - '0';
-//                int hours = digit_0 + 10 * digit_1;
-//                cout << hours + 12 << endl;
+                const char* char_arr = parts[0].c_str();
+                int digit_0 = char_arr[0] - '0';
+                int digit_1 = char_arr[1] - '0';
+                int hours = digit_1 + 10 * digit_0+ 12;
+                parts[0] = to_string(hours);
             }
         }
+
+        if(day_pos == string::npos && night_pos == string::npos && parts[0] == "00") // 00:00:00
+            parts[i] = parts[i]; // dummy assignment; just to flag this special case
+
+        i++;
+
     }
 
-    pos = in.find(':');
-    i++;
+    for(int i =0 ; i < 3; i++)
+    {
+        ret += parts[i];
+        if(i != 2)
+        {
+            ret += ":";
+        }
+    }
 
     return ret;
 }
