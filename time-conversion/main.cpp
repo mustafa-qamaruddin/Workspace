@@ -33,14 +33,18 @@ string time_conversion(string in)
         string temp = parts[i];
 
         size_t day_pos = temp.find("AM");
-        if(day_pos != string::npos)
+        if(day_pos != string::npos){ // 12:40:22AM -> 00:40:22
+            if(parts[0] == "12"){
+                parts[0] = "00";
+            }
             parts[i] = temp.substr(0, day_pos);
+        }
 
         size_t night_pos = temp.find("PM");
         if(night_pos != string::npos)
         {
             parts[i] = temp.substr(0, night_pos);
-            if(parts[0].find('12') == string::npos) // 01PM, 02PM, 03PM, 04PM, 05PM, 06PM, 07PM, 08PM, 09PM, 10PM, 11PM
+            if(parts[0].find("12") == string::npos) // 01PM, 02PM, 03PM, 04PM, 05PM, 06PM, 07PM, 08PM, 09PM, 10PM, 11PM
             {
                 const char* char_arr = parts[0].c_str();
                 int digit_0 = char_arr[0] - '0';

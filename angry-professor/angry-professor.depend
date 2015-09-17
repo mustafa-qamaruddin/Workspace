@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1442506069 source:/home/qamar-ud-din/workspace/angry-professor/main.cpp
+	<cmath>
+	<cstdio>
+	<vector>
+	<iostream>
+	<algorithm>
+
