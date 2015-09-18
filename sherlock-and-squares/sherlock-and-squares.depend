@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1442610153 source:/home/qamar-ud-din/workspace/sherlock-and-squares/main.cpp
+	<cmath>
+	<cstdio>
+	<vector>
+	<iostream>
+	<algorithm>
+
