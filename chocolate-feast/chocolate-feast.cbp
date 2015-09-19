@@ -31,6 +31,10 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="inputs.dat" />
+		<Unit filename="main.cpp" />
+		<Unit filename="my_outputs.dat" />
+		<Unit filename="outputs.dat" />
 		<Extensions>
 			<code_completion />
 			<debugger />
