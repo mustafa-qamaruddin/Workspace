@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1442688964 source:/home/qamar-ud-din/workspace/chocolate-feast/main.cpp
+	<cmath>
+	<cstdio>
+	<vector>
+	<iostream>
+	<algorithm>
+
