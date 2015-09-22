@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1442686106 source:/home/qamar-ud-din/workspace/cut-the-sticks/main.cpp
+	<cmath>
+	<cstdio>
+	<vector>
+	<iostream>
+	<algorithm>
+

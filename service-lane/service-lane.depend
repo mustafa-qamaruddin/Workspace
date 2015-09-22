@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1442612066 source:/home/qamar-ud-din/workspace/service-lane/main.cpp
+	<cmath>
+	<cstdio>
+	<vector>
+	<iostream>
+	<algorithm>
+
