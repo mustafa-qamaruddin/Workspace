@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1443013956 source:/home/qamar-ud-din/workspace/find-strings/main.cpp
+	<map>
+	<set>
+	<list>
+	<cmath>
+	<ctime>
+	<deque>
+	<queue>
+	<stack>
+	<bitset>
+	<cstdio>
+	<limits>
+	<vector>
+	<cstdlib>
+	<numeric>
+	<sstream>
+	<iostream>
+	<algorithm>
+

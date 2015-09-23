@@ -1,10 +1,9 @@
 # depslib dependency file v1.0
-1442981012 source:/home/qamar-ud-din/workspace/encryption/main.cpp
+1443018654 source:/home/qamar-ud-din/workspace/funny-string/main.cpp
 	<cmath>
 	<cstdio>
 	<vector>
 	<iostream>
 	<algorithm>
 	<string>
-	<typeinfo>
 

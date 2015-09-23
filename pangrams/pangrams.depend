@@ -1,10 +1,9 @@
 # depslib dependency file v1.0
-1442981012 source:/home/qamar-ud-din/workspace/encryption/main.cpp
+1443020639 source:/home/qamar-ud-din/workspace/pangrams/main.cpp
 	<cmath>
 	<cstdio>
 	<vector>
 	<iostream>
 	<algorithm>
 	<string>
-	<typeinfo>
 
