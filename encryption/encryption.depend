@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1442980947 source:/home/qamar-ud-din/workspace/encryption/main.cpp
+	<cmath>
+	<cstdio>
+	<vector>
+	<iostream>
+	<algorithm>
+	<string>
+	<typeinfo>
+
