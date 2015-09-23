@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1442975261 source:/home/qamar-ud-din/workspace/kaprekar-numbers/main.cpp
+	<cmath>
+	<cstdio>
+	<vector>
+	<iostream>
+	<algorithm>
+
