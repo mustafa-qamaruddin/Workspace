@@ -1,9 +1,10 @@
 # depslib dependency file v1.0
-1443020639 source:/home/qamar-ud-din/workspace/pangrams/main.cpp
+1443021308 source:/home/qamar-ud-din/workspace/pangrams/main.cpp
 	<cmath>
 	<cstdio>
 	<vector>
 	<iostream>
 	<algorithm>
 	<string>
+	<cstring>
 
