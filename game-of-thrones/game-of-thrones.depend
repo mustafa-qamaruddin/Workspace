@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1443055599 source:/home/qamar-ud-din/workspace/game-of-thrones/main.cpp
+	<cmath>
+	<cstdio>
+	<vector>
+	<iostream>
+	<algorithm>
+	<string>
+	<set>
+	<map>
+
