@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1443123801 source:/home/qamar-ud-din/workspace/anagram/main.cpp
+	<cmath>
+	<cstdio>
+	<vector>
+	<iostream>
+	<algorithm>
+	<cstring>
+
