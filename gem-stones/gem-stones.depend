@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1443104172 source:/home/qamar-ud-din/workspace/gem-stones/main.cpp
+	<cmath>
+	<cstdio>
+	<vector>
+	<iostream>
+	<algorithm>
+	<map>
+	<set>
+
