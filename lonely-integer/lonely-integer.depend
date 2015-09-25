@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1443208411 source:/home/qamar-ud-din/workspace/lonely-integer/main.cpp
+	<map>
+	<set>
+	<list>
+	<cmath>
+	<ctime>
+	<deque>
+	<queue>
+	<stack>
+	<bitset>
+	<cstdio>
+	<limits>
+	<vector>
+	<cstdlib>
+	<numeric>
+	<sstream>
+	<iostream>
+	<algorithm>
+
