@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1443220084 source:/home/qamar-ud-din/workspace/insertion-sort-2/main.cpp
+	<cstdio>
+	<cstring>
+	<string>
+	<cmath>
+	<cstdlib>
+	<cassert>
+	<iostream>
+
