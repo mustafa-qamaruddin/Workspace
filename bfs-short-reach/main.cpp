@@ -52,8 +52,10 @@ void calculate_distance(node* a_graph, int an_index){
     int d = 0;
     int i = an_index;
     while(a_graph[i].parent != NULL){
+
         d += Edge_Cost;
         i = a_graph[i].parent;
+
     }
     a_graph[an_index].distance = d;
 }
@@ -63,13 +65,14 @@ void bfs(node* a_graph, int sz, int s)
     queue<int> q;
     a_graph[s].parent = NULL;
     a_graph[s].color = GREY;
+    a_graph[s].visited = true;
+    a_graph[s].distance = 0;
     q.push(s);
     int distance = 0;
     while(!q.empty())
     {
         int k = q.front();
         q.pop();
-        a_graph[k].visited = true;
         vector<int>::iterator itr = a_graph[k].adjl.begin();
         vector<int>::iterator itr_end = a_graph[k].adjl.end();
         while(itr != itr_end)
@@ -79,10 +82,11 @@ void bfs(node* a_graph, int sz, int s)
                 ++itr;
                 continue;
             }
+            a_graph[*itr].visited = true;
             a_graph[*itr].color = GREY;
             a_graph[*itr].parent = k;
+            a_graph[*itr].distance = a_graph[k].distance + Edge_Cost;
             q.push(*itr);
-            calculate_distance(a_graph, *itr);
             ++itr;
         }
     }
@@ -107,6 +111,7 @@ int main()
             my_graph[y].adjl.push_back(x);
         }
         cin >> s;
+//        display_graph(my_graph, n);
         bfs(my_graph, n, s);
     }
     return 0;
