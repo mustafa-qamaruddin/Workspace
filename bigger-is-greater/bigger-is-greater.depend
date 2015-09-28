@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1443426543 source:/home/qamar-ud-din/workspace/bigger-is-greater/main.cpp
+	<cmath>
+	<cstdio>
+	<vector>
+	<iostream>
+	<algorithm>
+	<string>
+	<cstring>
+
