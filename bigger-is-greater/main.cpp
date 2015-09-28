@@ -12,12 +12,12 @@ string w, next_smallest;
 
 void permute(int sz, int pos, string acc)
 {
-    cout << sz << " " << pos << " " << acc << endl;
+//    cout << sz << " " << pos << " " << acc << endl;
     if(pos == sz)
     {
         if(acc > w && acc < next_smallest)
         {
-            cout << acc << endl;
+//            cout << acc << endl;
             next_smallest = acc;
         }
         return;
@@ -39,7 +39,10 @@ int main()
         cin >> w;
         next_smallest = w;
         permute(w.length(), 0, "");
-        cout << next_smallest << endl;
+        if(next_smallest == w)
+            cout << "no answer" << endl;
+        else
+            cout << next_smallest << endl;
     }
     return 0;
 }
